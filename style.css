@@ -47,5 +47,31 @@ header p{
     background: #6860d3;
 }
 .pad6{
-    background: #60b2d3
+    background: #60b2d3;
+}
+
+.visual > div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+    bottom: 0%;
+    left: 0%;
+    bottom: 0%;
+    z-index: -1;
+}
+
+@keyframes jump{
+    0%{
+        bottom: 0%;
+        left: 20%;
+    }
+    50%{
+        bottom: 50%;
+        left: 50%;
+    }
+    100%{
+        bottom: 0%;
+        left: 80%;
+    }
 }
